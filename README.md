@@ -25,14 +25,14 @@ Login: using ssh
 
 init_script.sh
 ------------------
-sudo apt-get update
-sudo apt-get -y install python3.6
-sudo apt-get -y install python3-pip
-sudo apt-get -y install nginx
-sudo apt-get -y install gunicorn3
-pip3 install flask
-pip3 install pandas
-pip3 install sklearn
+sudo apt-get update,
+sudo apt-get -y install python3.6,
+sudo apt-get -y install python3-pip,
+sudo apt-get -y install nginx,
+sudo apt-get -y install gunicorn3,
+pip3 install flask,
+pip3 install pandas,
+pip3 install sklearn,
 -------------------
 source 'init_script.sh'
 
